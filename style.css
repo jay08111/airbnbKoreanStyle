@@ -12,17 +12,32 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 80px;
+  gap: 70px;
   margin-top: 1.5rem;
 }
 h1 {
   font-size: 3rem;
   font-weight: 600;
 }
+textarea {
+  resize: none;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+button {
+  cursor: pointer;
+}
 main :nth-child(3) {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 35px;
+}
+main :nth-child(3) button {
+  background-color: #f783ac;
+  padding: 1.5rem;
+}
+main :nth-child(3) button:hover {
+  background-color: #fa5252;
 }
 div button {
   padding: 1rem;
@@ -33,9 +48,14 @@ div button {
 h3 {
   font-size: 1.5rem;
 }
-main :nth-child(6) {
-  padding: 1rem;
+.copy-button {
+  padding: 1.5rem;
   border: none;
   font-size: 1.2rem;
   border-radius: 10px;
+  background-color: #cc5de8;
+  margin-bottom: 2rem;
+}
+.copy-button {
+  background-color: #ae3ec9;
 }

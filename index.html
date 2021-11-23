@@ -10,16 +10,17 @@
 </head>
 
 <body>
-  <main>
+  <main class='main'>
     <h1>한글 난독화</h1>
-    <textarea cols="30" rows="10"></textarea>
+    <textarea cols="70" rows="10" placeholder="변환할 문장들을 여기에 입력하고 '변환하기' 버튼을 누르세요."
+      spellcheck="false">해외여행 중 방문했던 숙박 시설이나 음식점 후기를 남길 때, 혹은 해외 체류 중 외국인 친구 모르게 글을 쓰고 싶을 때 유용한 방법이 있다. 지구상 어떤 번역기도 읽을 수 없는 일명 ‘에어비엔비 체’다. 에어비엔비 숙소 주인 몰래 한국인만 알아채도록 후기를 남긴 데서 비롯됐다. 모음과 자음의 다양한 조합으로 여러 경우의 수를 만들어내는 방식이다.</textarea>
     <div>
       <button>변환하기</button>
-      <button>입력창 지우기</button>
+      <button class='remove-item'>입력창 지우기</button>
     </div>
     <h3>변환된 문장:</h3>
-    <textarea cols="30" rows="10"></textarea>
-    <button>클립보드에 복사</button>
+    <textarea cols="70" rows="10" spellcheck="false" class='second-area'></textarea>
+    <button class='copy-button'>클립보드에 복사</button>
   </main>
 
 </body>
